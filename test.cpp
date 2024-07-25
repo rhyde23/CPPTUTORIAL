@@ -37,6 +37,13 @@ int main(int argc, char** argv) {
 
     cout << "Hello World" << endl;
 	
+	string s = "Test String";
+	char first = s[0];
+	char las = s.back();
+
+	cout << first << endl;
+	
+	
 	int fill[5];
 	
 	for(int i = 1; i <= 5; ++i) {
@@ -64,7 +71,7 @@ int main(int argc, char** argv) {
 	
 	cin >> last;
 	
-	int last_int = stoi(last);
+	int last_int = stoi(last); //string to int casting
 
 	myVector.push_back(last_int);
 	
